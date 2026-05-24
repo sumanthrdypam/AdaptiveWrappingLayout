@@ -4,7 +4,7 @@ A custom Jetpack Compose layout that brings CSS-style `float: left` and `float: 
 
 By default, Jetpack Compose (`Column`, `Row`, `FlowRow`) treats text blocks as rigid rectangles, making it impossible to wrap a single paragraph natively around an image or pull-quote. **AdaptiveWrappingLayout** solves this by dynamically measuring and splitting content constraints, allowing your text to flow beautifully around obstacles and span full-width once the obstacle is cleared.
 
-## ✨ Features
+## Features
 
 * **CSS-Style Floats:** Pin your images or UI blocks to the `Left` or `Right`.
 * **Smart Wrapping:** Content smoothly flows around obstacles, then snaps back to full width once clear.
